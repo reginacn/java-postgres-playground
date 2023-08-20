@@ -19,9 +19,12 @@ public class HelloWorld {
 
         char sexo = 'F';
         System.out.println("sexo: " + sexo);      
-          
+
         boolean necessidadesEspeciais = false;
         System.out.println("tem necessidades especiais: " + necessidadesEspeciais);
+
+        var variavelTipadaAutomaticamentePeloCompilador = 10;
+        System.out.println("variavelTipadaAutomaticamentePeloCompilador: " + variavelTipadaAutomaticamentePeloCompilador);
 
     }
 }
